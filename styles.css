@@ -1,0 +1,100 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+.nav-title {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgba(97, 116, 152, 0.661);
+  width: inherit;
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+
+body {
+  padding: 4em;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+span,
+header {
+  font-weight: bold;
+}
+
+header {
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+  border-top: 2px solid black;
+  margin: 10px;
+}
+
+#index {
+  border-top: none;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.fixed-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fixed-nav ul li {
+  margin: 20px 0;
+}
+
+.fixed-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container {
+  margin-left: 120px;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.code {
+  background-color: #333;
+  padding: 1px 1px;
+  text-align: center;
+  color: white;
+  display: block;
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+
+}
+a:hover {
+    background-color: rgba(97, 116, 152, 0.661);
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    border: 3px solid rgba(97, 116, 152, 0.661);
+
+}
+
+#Helpful_Guides li {
+    margin-bottom: 10px;
+}
